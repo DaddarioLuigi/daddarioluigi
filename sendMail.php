@@ -1,7 +1,4 @@
 <?php
-if(isset($_POST['contactForm']))
-{
-
 	$to = 'l.daddario@studenti.uniba.it';
 	$subject = 'Messaggio dal sito web';
 	$message = 'hello';
@@ -10,6 +7,4 @@ if(isset($_POST['contactForm']))
 	    'X-Mailer: PHP/' . phpversion();
 
 	mail($to, $subject, $message, $headers);
-
-}
 ?>
