@@ -3039,19 +3039,7 @@ html.no-csstransitions .home-content__main {
  *
  * ------------------------------------------------------------------- */
 
-.s-contact.webp-supported {
-    background-color: #151515;
-    background-image: url("../images/bg-contatti.webp");
-    background-repeat: no-repeat;
-    background-position: center, center;
-    padding-top: 13.2rem;
-    padding-bottom: 12rem;
-    color: rgba(255, 255, 255, 0.5);
-    position: relative;
-}
-
-.s-contact.no-webp
-{
+.s-contact {
     background-color: #151515;
     background-image: url("../images/bg-contatti.png");
     background-repeat: no-repeat;
