@@ -1,7 +1,7 @@
 /* =================================================================== 
  *
- *  Hola v1.0 Main Stylesheet
- *  10-02-2017
+ *  daddarioluigi.com
+ *  
  *  ------------------------------------------------------------------
  *
  *  TOC:
@@ -3041,7 +3041,7 @@ html.no-csstransitions .home-content__main {
 
 .s-contact {
     background-color: #151515;
-    background-image: url("../images/contact-bg.jpg");
+    background-image: url("../images/bg-contatti.jpg");
     background-repeat: no-repeat;
     background-position: center, center;
     padding-top: 13.2rem;
