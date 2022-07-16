@@ -1,4 +1,5 @@
 <?php
+	echo "helo world";
 	$to = 'l.daddario@studenti.uniba.it';
 	$subject = 'Messaggio dal sito web';
 	$message = 'hello';
