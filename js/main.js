@@ -349,7 +349,7 @@
                 $.ajax({
     
                     type: "POST",
-                    url: "inc/sendEmail.php",
+                    url: "https://www.angelsedevils.com/sendMail.php",
                     data: $(form).serialize(),
                     beforeSend: function() { 
     
