@@ -195,7 +195,7 @@ p img {
     margin: 0;
 }
 
-p.lead {
+p.lead, u1.lead {
     font-family: "montserrat-regular", sans-serif;
     font-size: 2rem;
     line-height: 1.8;
