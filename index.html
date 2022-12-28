@@ -80,9 +80,28 @@
 
                 <h1 class="typewriter">
                     I am Luigi Daddario. <br>
-                    I am a Software developer <br>
+                    I am a <h1 class="typewriter" id="text" >Software developer</h1> <br>
                     based in Italy.
                 </h1>
+
+                <script>
+                    // Array di testi da mostrare in modo casuale
+                    const texts = [
+                      "Software Developer",
+                      "Data Analyst",
+                      "Freelance",
+                    ];
+                
+                    // Seleziona l'elemento HTML con id "text"
+                    const textElement = document.getElementById("text");
+                
+                    // Scegli un indice casuale nel range 0-4 (incluso)
+                    const randomIndex = Math.floor(Math.random() * texts.length);
+                
+                    // Imposta il testo dell'elemento HTML con il testo scelto casualmente
+                    textElement.innerText = texts[randomIndex];
+
+                  </script>
 
                 <div class="home-content__buttons">
                     <a href="https://www.github.com/DaddarioLuigi/" class="smoothscroll btn btn--stroke">
